@@ -10,7 +10,7 @@ summary: "A painless tutorial on Vim buffers"
 published: true
 tags: vim, workflow
 ---
-First off, [GO SOX](http://boston.redsox.mlb.com)!!!11
+First off, [GO CARDS](http://cardinals.com)!!!11
 
 Now that I've reinforced my allegiance to America's favorite baseball team, let's
 talk about Vim. In this series of posts, we'll explore buffers,
@@ -33,7 +33,7 @@ Let's create a dummy directory and some of text files:
 
 ```
 mkdir dummy && cd dummy
-echo 'The Red Sox rule!' > redsox.txt && echo 'Cardinals drool!' > cardinals.txt
+echo 'The Red Sox drool!' > redsox.txt && echo 'Cardinals rule!' > cardinals.txt
 ```
 
 Next, open up the `redsox.txt` file.
@@ -86,7 +86,7 @@ As we can see, our `cardinals.txt` has yet to be loaded. Let's open it into
 our window and view our current buffers.
 
 ```
-:e cardinals.txt   # => Cardinals drool!
+:e cardinals.txt   # => Cardinals rule!
 
 :ls
   ### =>   1    #    "redsox.txt"              line 1
